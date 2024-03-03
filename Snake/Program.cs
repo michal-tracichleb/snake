@@ -1,4 +1,6 @@
-﻿Console.WindowHeight = 16;
+﻿using Snake;
+
+Console.WindowHeight = 16;
 
 Console.WindowWidth = 32;
 
@@ -7,14 +9,6 @@ int screenwidth = Console.WindowWidth;
 int screenheight = Console.WindowHeight;
 
 Random randomnummer = new Random();
-
-pixel hoofd = new pixel();
-
-hoofd.xpos = screenwidth / 2;
-
-hoofd.ypos = screenheight / 2;
-
-hoofd.schermkleur = ConsoleColor.Red;
 
 string movement = "RIGHT";
 
