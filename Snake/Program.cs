@@ -86,7 +86,7 @@ while (true)
         Console.Write("■");
     }
 
-    Console.ForegroundColor =  /* ?? */;
+    Console.ForegroundColor = ConsoleColor.Red;
 
     Console.WriteLine("Score: " + score);
 
