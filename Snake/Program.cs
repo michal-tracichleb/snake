@@ -137,7 +137,7 @@ while (true)
 
         case ConsoleKey.DownArrow:
             movement = "DOWN";
-        // ???
+            break;
 
         case ConsoleKey.LeftArrow:
             movement = "LEFT";
